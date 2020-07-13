@@ -1,10 +1,14 @@
-
+body {
+background-color: rgb(255, 255, 255);
+}
 h1 {
     font-size: 50px;
     text-align: center;
     background-color: rgba(226, 224, 224, 0.733);
     border-bottom: 1px solid;
     padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
 }
 h2 {
     display: inline;
@@ -20,9 +24,6 @@ h2 {
 }
 #home {
     margin-left: 200px;
-}
-#titles {
-    background-color: white;
 }
 #text {
     margin-left: 70%;
