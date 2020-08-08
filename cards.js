@@ -12,7 +12,7 @@ export function createCards(){
                        <div class="symbol-down">
                        <div>
                        <input type="checkbox" class="switch" >
-                       <label for="switch">LiveReport</label>
+                       <label for="switch">LiveReport:error</label>
                        </div><br>
                      <button type="button" class="collapse menu" id=${currency.id}>Info</button>
                      <div class="info" style="visibility: hidden">
