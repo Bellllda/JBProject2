@@ -1,16 +1,28 @@
 body {
-background-color: rgb(255, 255, 255);
+background-color: rgba(155, 255, 146, 0.356);
 }
-h1 {
+.formi{
+    display: grid;
+    grid-template-columns: 1fr ;
+    grid-template-areas: "title title title title pic"
+}
+#mainc {
     font-size: 50px;
     text-align: center;
-    background-color: rgba(226, 224, 224, 0.733);
+    background-color: rgba(226, 224, 224, 0.5);
     border-bottom: 1px solid;
     padding: 20px;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
+    grid-area: title;
 }
-h2 {
+#coinimg {
+    height: 140px;
+    width: 180px;
+    border-bottom: solid black 1px;
+    grid-area: pic;
+}
+.menu {
     display: inline;
     margin: 5px;
     padding: 5px;
@@ -25,7 +37,7 @@ h2 {
 #home {
     margin-left: 200px;
 }
-#text {
+#put {
     margin-left: 70%;
     text-align: right;
 }
@@ -33,4 +45,47 @@ h2 {
     font-size: 12px;
     margin-left: 5px;
     text-align: right;
+}
+#container {
+    flex-wrap: wrap;
+    display: flex;
+    grid-area: main;
+}
+#gridtry {
+    display: grid;
+    grid-template-columns: 1fr 6.5fr 1fr;
+    grid-template-areas: ". main ."
+    
+}
+.card-creation {
+    border: solid rgba(126, 144, 167, 0.705) 2px;
+    border-radius: 5px;
+    box-shadow: 2px 3px #888888;
+    max-width: 270px;
+    width: 150px;
+    height: 250px;
+    margin-left:6px;
+    margin-bottom:6px;
+    background-color: rgba(255, 255, 255, 0.637);
+
+}
+.card-creation {
+    display: block;
+}
+.price {
+    text-align: center;
+    display: block;
+
+}
+.card-symb{
+    position: relative;
+    left: 5px;
+    top: 5px;
+}
+.symbol-down{
+    text-align: center;
+}
+.cid {
+    position: relative;
+    left: 5px;
 }
